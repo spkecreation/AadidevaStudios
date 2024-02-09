@@ -1,0 +1,20 @@
+@media (max-width:720px){
+    .more{
+        display: flex;
+        justify-content: right;
+    }
+    .navbtn{
+        display: none;
+    }
+    .navbar{
+        margin: 0;
+    }
+    .sec1 img{
+        width: 100%;
+    }
+    .sec2{
+        position: relative;
+        top: -50vh;
+    }
+
+}

@@ -1,0 +1,236 @@
+body{
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+}
+.navbar img{
+    width: 50px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+    align-items: center;
+}
+.navbtn button{
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+    color: #f2fd90;
+}
+.navbtn{
+    display: flex;
+    margin: 20px;
+    justify-self: right;
+}
+
+.sec1{
+    height: 100%;
+    background-image: url(OIP.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbtn button:hover{
+    opacity: 70%;
+}
+.sec2{
+    margin-top: 100VH;
+    background-color: #c4c4c4;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    height: 600px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sec2div1{
+    /* border: solid red 2px; */
+    display: grid;
+    text-align: center;
+    font-size: 25vh;
+    position: relative;
+    top: -30vh;
+    opacity: 30%;
+}
+.sec2div2{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -60vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 150%;
+}
+.sec3{
+    display: grid;
+    grid-template-columns: 15fr 2fr;
+    background-color: #757575;
+    position: relative;
+    height: 550px;
+}
+.sec3div2{
+    display: flex;
+    rotate: 90deg;
+    width: 80px;
+    font-size: 350%;
+    color: #e0e0e0; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.sec3div1{
+    background-color: #c4c4c4;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.sec4{
+    height: 700px;
+    background-color: #c4c4c4;
+    position: relative;
+    top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sec4div2{
+    font-size: 23vh;
+    text-align: center;
+    opacity: 30%;
+    position: relative;
+    top: -30vh;
+}
+.sec4div1 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sec4div1 div div{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.sec4img{
+    display: flex;
+    justify-self: center;
+    /* border: solid red 2px; */
+}
+.sec31{
+    height: 550px;
+    background-color: #757575;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+.sec31 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 33vh;
+    text-align: end;
+    opacity: 30%;
+    color: #ffffff;
+}
+.sec31 div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: large;
+    color: #fafafa;
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+}
+
+.sec5 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30vh;
+    text-align: end;
+    opacity: 30%;
+    color: #ffffff;
+}
+.sec5 div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: large;
+    color: #fafafa;
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+}
+.sec5{
+    height: 500px;
+    background-color: #757575;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* border: solid red 2px; */
+    border-radius: 10px;
+}
+.more{
+    display: none;
+}
+
+
+
+
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
